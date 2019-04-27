@@ -1,13 +1,9 @@
-#
+
 # DEPENDENCIES
 # install using pip3 install <package>
 #   jplephem 
 #   sgp4
 #   skyfield
-#
-# JPL Ephemeris data
-#   https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp
-# See https://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory_Development_Ephemeris) for detrails
 
 import datetime
 from skyfield.api import load, EarthSatellite
